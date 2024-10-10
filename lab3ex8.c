@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+
+    printf("Enter a positive integer:\n ");
+    scanf("%d", &n);
+
+     int counter= 1;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            printf("%d\t", counter++);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
